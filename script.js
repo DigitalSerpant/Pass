@@ -15,6 +15,7 @@ function sus() {
     if (username === 'user' && password === '123456') {
       // If they match, open youtube.com in a new window
       window.open('https://sites.google.com/student.harmonytx.org/ourharmonyportal3/page', '_blank');
+        this.close();
 
     } else {
       // If they don't match, display an error message
