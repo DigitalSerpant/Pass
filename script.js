@@ -12,7 +12,7 @@ function sus() {
 
   
     // Check if the username and password match the expected values
-    if (username === 'user' && password === '123456') {
+    if (username === 'admin' && password === '123456789') {
       // If they match, open youtube.com in a new window
       window.open('https://sites.google.com/student.harmonytx.org/ourharmonyportal314159/page', '_blank');
         this.close();
